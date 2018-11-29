@@ -24,7 +24,11 @@ namespace MyGameServer.Handler
             bool isSuccess = manager.VerifyUser(username, password);
 
             OperationResponse response = new OperationResponse(operationRequest.OperationCode);
-            if (isSuccess) response.ReturnCode = (short)Common.ReturnCode.Success;
+            if (isSuccess)
+            {
+                response.ReturnCode = (short)Common.ReturnCode.Success;
+                peer.username = username;
+            }
             else response.ReturnCode = (short)Common.ReturnCode.Failed;
             peer.SendOperationResponse(response, sendParameters);
         }

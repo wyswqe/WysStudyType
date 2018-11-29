@@ -9,3 +9,14 @@ F:\PhotonServer教程\PhotonServer教程\CSharp直接连接MySQL\obj\Debug\CShar
 F:\PhotonServer教程\PhotonServer教程\CSharp直接连接MySQL\obj\Debug\CSharp直接连接MySQL.csproj.CopyComplete
 F:\PhotonServer教程\PhotonServer教程\CSharp直接连接MySQL\obj\Debug\CSharp直接连接MySQL.exe
 F:\PhotonServer教程\PhotonServer教程\CSharp直接连接MySQL\obj\Debug\CSharp直接连接MySQL.pdb
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\CSharp直接连接MySQL\bin\Debug\CSharp直接连接MySQL.exe.config
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\CSharp直接连接MySQL\bin\Debug\CSharp直接连接MySQL.exe
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\CSharp直接连接MySQL\bin\Debug\CSharp直接连接MySQL.pdb
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\CSharp直接连接MySQL\bin\Debug\MySql.Data.dll
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\CSharp直接连接MySQL\bin\Debug\Google.Protobuf.dll
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\CSharp直接连接MySQL\bin\Debug\MySql.Data.xml
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\CSharp直接连接MySQL\obj\Debug\CSharp直接连接MySQL.csprojAssemblyReference.cache
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\CSharp直接连接MySQL\obj\Debug\CSharp直接连接MySQL.csproj.CoreCompileInputs.cache
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\CSharp直接连接MySQL\obj\Debug\CSharp直接连接MySQL.csproj.CopyComplete
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\CSharp直接连接MySQL\obj\Debug\CSharp直接连接MySQL.exe
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\CSharp直接连接MySQL\obj\Debug\CSharp直接连接MySQL.pdb

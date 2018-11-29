@@ -13,6 +13,9 @@ namespace MyGameServer
 {
     public class ClientPeer : Photon.SocketServer.ClientPeer
     {
+        public float x, y, z;
+        public string username;
+
         public ClientPeer(InitRequest initRequest) : base(initRequest)
         {
 
@@ -21,6 +24,7 @@ namespace MyGameServer
         //处理客户端断开连接的后续工作
         protected override void OnDisconnect(DisconnectReason reasonCode, string reasonDetail)
         {
+            MyGameServer.Instance.peerList.Remove(this);
         }
 
         //处理客户端的请求

@@ -6,5 +6,7 @@ namespace Common
         Login,
         Register,
         Default,
+        SyncPosition,
+        SyncPlayer,
     }
 }

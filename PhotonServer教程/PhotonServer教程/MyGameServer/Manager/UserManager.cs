@@ -21,6 +21,7 @@ namespace MyGameServer.Manager
             {
                 using (ITransaction transation = session.BeginTransaction())
                 {
+                    user.Registerdate = DateTime.Now;
                     session.Save(user);
                     transation.Commit();
                 }

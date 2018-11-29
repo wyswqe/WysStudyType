@@ -9,3 +9,12 @@ F:\PhotonServer教程\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameSer
 F:\PhotonServer教程\PhotonServer教程\MyGameServer\obj\Debug\MyGameServer.csproj.CopyComplete
 F:\PhotonServer教程\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\log4net.config
 F:\PhotonServer教程\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml
+F:\WysStudyType\PhotonServer教程\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\hibernate.cfg.xml
+F:\WysStudyType\PhotonServer教程\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\log4net.config
+F:\WysStudyType\PhotonServer教程\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\MyGameServer.dll
+F:\WysStudyType\PhotonServer教程\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\MyGameServer.pdb
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\MyGameServer\obj\Debug\MyGameServer.csprojAssemblyReference.cache
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\MyGameServer\obj\Debug\MyGameServer.csproj.CoreCompileInputs.cache
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\MyGameServer\obj\Debug\MyGameServer.csproj.CopyComplete
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\MyGameServer\obj\Debug\MyGameServer.dll
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\MyGameServer\obj\Debug\MyGameServer.pdb

@@ -11,6 +11,7 @@ using log4net.Config;
 using MyGameServer.Manager;
 using Common;
 using MyGameServer.Handler;
+using MyGameServer.Threads;
 
 namespace MyGameServer
 {
@@ -22,13 +23,17 @@ namespace MyGameServer
         public static MyGameServer Instance { get; private set; }
 
         public Dictionary<OperationCode, BaseHandler> HandlerDict = new Dictionary<OperationCode, BaseHandler>();
+        public List<ClientPeer> peerList = new List<ClientPeer>();//通过这个集合可以访问到所有客户端的peer从而可以向所有客户端推送数据
+        private SyncPositionThread syncPositionThread = new SyncPositionThread();
 
         //当一个客户端请求链接的时候
         //我们使用peerbase,表示和一个客户端的链接
         protected override PeerBase CreatePeer(InitRequest initRequest)
         {
             log.Info("一个客户端连接过来了。。。。");
-            return new ClientPeer(initRequest);
+            ClientPeer peer = new ClientPeer(initRequest);
+            peerList.Add(peer);
+            return peer;
         }
 
         //初始化
@@ -48,6 +53,7 @@ namespace MyGameServer
             log.Info("服务器初始化完成");
 
             InitHandler();
+            syncPositionThread.Run();
         }
         public void InitHandler()
         {
@@ -55,11 +61,18 @@ namespace MyGameServer
             HandlerDict.Add(loginHandler.OpCode, loginHandler);
             DefaultHandler defaultHandle = new DefaultHandler();
             HandlerDict.Add(defaultHandle.OpCode, defaultHandle);
+            RegisteHandler registerHandler = new RegisteHandler();
+            HandlerDict.Add(registerHandler.OpCode, registerHandler);
+            SyncPositionHandler syncPositionHandler = new SyncPositionHandler();
+            HandlerDict.Add(syncPositionHandler.OpCode, syncPositionHandler);
+            SyncPlayerHandler syncPlayerHandler = new SyncPlayerHandler();
+            HandlerDict.Add(syncPlayerHandler.OpCode, syncPlayerHandler);
         }
 
         //server端关闭的时候
         protected override void TearDown()
         {
+            syncPositionThread.Stop();
             log.Info("服务器端应用关闭了");
         }
     }
