@@ -1,0 +1,4 @@
+2018-11-28 17:25:56,087 [1] INFO  MyGameServer.MyGameServer - Setup Completed !
+2018-11-28 17:25:56,097 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MyGame1; AppPath=F:\PhotonServer½Ì³Ì\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer, Type=MyGameServer.MyGameServer 
+2018-11-28 17:26:52,011 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MyGame1
+2018-11-28 17:26:52,013 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MyGame1

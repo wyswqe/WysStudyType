@@ -1,0 +1,4 @@
+2018-11-28 16:26:25,875 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=CounterPublisher; AppPath=F:\PhotonServer½Ì³Ì\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\CounterPublisher, Type=Photon.CounterPublisher.Application 
+2018-11-28 16:26:25,892 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher - CounterPublisher started publishing ExitGames.Diagnostics.Monitoring.CounterSamplePublisher to ExitGames.Diagnostics.Monitoring.CounterSampleSender
+2018-11-28 16:26:37,622 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=CounterPublisher
+2018-11-28 16:26:37,631 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=CounterPublisher

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp直接连接MySQL", "CSharp直接连接MySQL\CSharp直接连接MySQL.csproj", "{7558E3F6-3B73-419E-91EB-6A6D20402930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernate和MySQL交互", "NHibernate和MySQL交互\NHibernate和MySQL交互.csproj", "{BFC203CA-EF07-46C7-BC7B-5243F9AF58BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGameServer", "MyGameServer\MyGameServer.csproj", "{9477A85C-590B-4B7D-B1B2-AEF35312C796}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{8E57E4F3-B39E-4BD3-BE9C-E1508DEA730F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7558E3F6-3B73-419E-91EB-6A6D20402930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7558E3F6-3B73-419E-91EB-6A6D20402930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7558E3F6-3B73-419E-91EB-6A6D20402930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7558E3F6-3B73-419E-91EB-6A6D20402930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC203CA-EF07-46C7-BC7B-5243F9AF58BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC203CA-EF07-46C7-BC7B-5243F9AF58BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC203CA-EF07-46C7-BC7B-5243F9AF58BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC203CA-EF07-46C7-BC7B-5243F9AF58BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9477A85C-590B-4B7D-B1B2-AEF35312C796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9477A85C-590B-4B7D-B1B2-AEF35312C796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9477A85C-590B-4B7D-B1B2-AEF35312C796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9477A85C-590B-4B7D-B1B2-AEF35312C796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E57E4F3-B39E-4BD3-BE9C-E1508DEA730F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E57E4F3-B39E-4BD3-BE9C-E1508DEA730F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E57E4F3-B39E-4BD3-BE9C-E1508DEA730F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E57E4F3-B39E-4BD3-BE9C-E1508DEA730F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {824EF5E7-20FA-48F7-AAD8-BBB86D956608}
+	EndGlobalSection
+EndGlobal
