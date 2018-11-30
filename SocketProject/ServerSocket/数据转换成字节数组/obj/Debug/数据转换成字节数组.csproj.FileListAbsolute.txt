@@ -1,0 +1,7 @@
+E:\SocketProject\ServerSocket\数据转换成字节数组\bin\Debug\数据转换成字节数组.exe.config
+E:\SocketProject\ServerSocket\数据转换成字节数组\bin\Debug\数据转换成字节数组.exe
+E:\SocketProject\ServerSocket\数据转换成字节数组\bin\Debug\数据转换成字节数组.pdb
+E:\SocketProject\ServerSocket\数据转换成字节数组\obj\Debug\数据转换成字节数组.csprojAssemblyReference.cache
+E:\SocketProject\ServerSocket\数据转换成字节数组\obj\Debug\数据转换成字节数组.csproj.CoreCompileInputs.cache
+E:\SocketProject\ServerSocket\数据转换成字节数组\obj\Debug\数据转换成字节数组.exe
+E:\SocketProject\ServerSocket\数据转换成字节数组\obj\Debug\数据转换成字节数组.pdb

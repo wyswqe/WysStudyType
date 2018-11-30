@@ -1,0 +1,6 @@
+E:\SocketProject\ServerSocket\TCP客户端\bin\Debug\TCP客户端.exe.config
+E:\SocketProject\ServerSocket\TCP客户端\bin\Debug\TCP客户端.exe
+E:\SocketProject\ServerSocket\TCP客户端\bin\Debug\TCP客户端.pdb
+E:\SocketProject\ServerSocket\TCP客户端\obj\Debug\TCP客户端.csproj.CoreCompileInputs.cache
+E:\SocketProject\ServerSocket\TCP客户端\obj\Debug\TCP客户端.exe
+E:\SocketProject\ServerSocket\TCP客户端\obj\Debug\TCP客户端.pdb

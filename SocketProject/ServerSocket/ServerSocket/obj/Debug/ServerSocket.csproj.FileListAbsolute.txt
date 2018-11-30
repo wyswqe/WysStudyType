@@ -1,0 +1,7 @@
+E:\SocketProject\ServerSocket\ServerSocket\bin\Debug\ServerSocket.exe.config
+E:\SocketProject\ServerSocket\ServerSocket\bin\Debug\ServerSocket.exe
+E:\SocketProject\ServerSocket\ServerSocket\bin\Debug\ServerSocket.pdb
+E:\SocketProject\ServerSocket\ServerSocket\obj\Debug\ServerSocket.csprojAssemblyReference.cache
+E:\SocketProject\ServerSocket\ServerSocket\obj\Debug\ServerSocket.csproj.CoreCompileInputs.cache
+E:\SocketProject\ServerSocket\ServerSocket\obj\Debug\ServerSocket.exe
+E:\SocketProject\ServerSocket\ServerSocket\obj\Debug\ServerSocket.pdb
