@@ -8,3 +8,4 @@ F:\WysStudyType\PhotonServer教程\PhotonServer教程\Common\bin\Debug\Common.pd
 F:\WysStudyType\PhotonServer教程\PhotonServer教程\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 F:\WysStudyType\PhotonServer教程\PhotonServer教程\Common\obj\Debug\Common.dll
 F:\WysStudyType\PhotonServer教程\PhotonServer教程\Common\obj\Debug\Common.pdb
+F:\WysStudyType\PhotonServer教程\PhotonServer教程\Common\obj\Debug\Common.csprojAssemblyReference.cache

@@ -42,11 +42,14 @@ namespace MyGameServer.Handler
             //告诉其他客户端右新的客户端加入
             foreach (ClientPeer tempPeer in MyGameServer.Instance.peerList)
             {
-                EventData ed = new EventData((byte)EventCode.NewPlayer);
-                Dictionary<byte, object> data2 = new Dictionary<byte, object>();
-                data.Add((byte)ParameterCode.Username, peer.username);
-                ed.Parameters = data2;
-                tempPeer.SendEvent(ed, sendParameters);
+                if (string.IsNullOrEmpty(tempPeer.username) == false && tempPeer != peer)
+                {
+                    EventData ed = new EventData((byte)EventCode.NewPlayer);
+                    Dictionary<byte, object> data2 = new Dictionary<byte, object>();
+                    data.Add((byte)ParameterCode.Username, peer.username);
+                    ed.Parameters = data2;
+                    tempPeer.SendEvent(ed, sendParameters);
+                }
             }
         }
     }

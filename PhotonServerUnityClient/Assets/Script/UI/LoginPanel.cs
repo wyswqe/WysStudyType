@@ -37,7 +37,7 @@ public class LoginPanel : MonoBehaviour
         {
             case ReturnCode.Success:
                 //跳转下一场景
-                SceneManager.LoadScene("Game");
+                SceneManager.LoadScene("GameScene");
                 break;
             case ReturnCode.Failed:
                 //提示错误

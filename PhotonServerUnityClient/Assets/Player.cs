@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
 
     public GameObject playerPrefab;
 
-    public GameObject player;
+    public GameObject localplayer;
 
     private SyncPositionRequest syncPosRequest;
     private SyncPlayerRequest syncPlayerRequest;
@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
     {
         //if (isLocalPlayer)
         //{
-        player.GetComponent<Renderer>().material.color = Color.red;
+        localplayer.GetComponent<Renderer>().material.color = Color.red;
         syncPosRequest = GetComponent<SyncPositionRequest>();
         syncPlayerRequest = GetComponent<SyncPlayerRequest>();
         syncPlayerRequest.DefaultRequest();
@@ -36,10 +36,10 @@ public class Player : MonoBehaviour
 
     void SyncPosition()
     {
-        if (Vector3.Distance(player.transform.position, lastPosition) > 0.1f)
+        if (Vector3.Distance(localplayer.transform.position, lastPosition) > 0.1f)
         {
-            lastPosition = player.transform.position;
-            syncPosRequest.pos = player.transform.position;
+            lastPosition = localplayer.transform.position;
+            syncPosRequest.pos = localplayer.transform.position;
             syncPosRequest.DefaultRequest();
         }
     }
@@ -51,7 +51,7 @@ public class Player : MonoBehaviour
         //{
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
-        player.transform.Translate(new Vector3(h, 0, v) * Time.deltaTime * 4);
+        localplayer.transform.Translate(new Vector3(h, 0, v) * Time.deltaTime * 4);
         //}
     }
 
