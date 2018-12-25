@@ -179,13 +179,17 @@
     <Compile Include="Assets\Plug-in unit\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\Plug-in unit\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\Plug-in unit\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\Script\LocalPlayerCharacter.cs" />
+    <Compile Include="Assets\Script\LocalPlayerControl.cs" />
     <None Include="Assets\Plug-in unit\EasyTouchBundle\EasyTouchControls\ReleaseNotes.txt" />
     <None Include="Assets\Plug-in unit\PolygonBattleRoyale\Materials\Shader\DamageZone.shader" />
     <None Include="Assets\Plug-in unit\PolygonBattleRoyale\Materials\Shader\Particle VertexLit Blended_Backface.shader" />
     <None Include="Assets\Plug-in unit\EasyTouchBundle\EasyTouchControls\Documentation\Version 2.0.txt" />
     <None Include="Assets\Plug-in unit\EasyTouchBundle\EasyTouch\_Documentation\How to migrate from EasyTouch 4.X.txt" />
     <None Include="Assets\Plug-in unit\EasyTouchBundle\Readme.txt" />
+    <None Include="Assets\Plug-in unit\SimpleApocalypse\ReadMe.txt" />
     <None Include="Assets\Plug-in unit\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Plug-in unit\SimpleApocalypse\_Materials\UnlitVertexColour_Alpha.shader" />
     <None Include="Assets\Plug-in unit\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Plug-in unit\EasyTouchBundle\EasyTouchControls\Issues in button behavior (MAC).txt" />
     <None Include="Assets\Plug-in unit\EasyTouchBundle\EasyTouch\RealseNotes.txt" />

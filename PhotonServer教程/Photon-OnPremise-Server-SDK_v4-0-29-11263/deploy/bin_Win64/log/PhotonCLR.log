@@ -1330,3 +1330,36 @@ System.Threading.ThreadAbortException: 正在中止线程。
    在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
    在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
    在 System.Threading.ThreadHelper.ThreadStart()
+2018-12-24 21:45:38,521 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2018-12-24 21:45:38,583 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2018-12-24 21:45:38,585 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2018-12-24 21:45:39,389 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2018-12-24 21:45:40,593 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'MyGame1' , assemblyName = 'MyGameServer'
+2018-12-24 21:45:40,617 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'F:\WysStudyType\PhotonServer教程\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2018-12-24 21:45:40,617 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'F:\WysStudyType\PhotonServer教程\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin;bin_Win64;Shared;'
+2018-12-24 21:45:40,617 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2018-12-24 21:45:40,617 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'F:\WysStudyType\PhotonServer教程\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin\Cache'
+2018-12-24 21:45:40,810 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'F:\WysStudyType\PhotonServer教程\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer'
+2018-12-24 21:45:40,810 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'F:\WysStudyType\PhotonServer教程\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\MyGameServer\bin'
+2018-12-24 21:45:40,810 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'F:\WysStudyType\PhotonServer教程\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy'
+2018-12-24 21:45:40,810 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'F:\WysStudyType\PhotonServer教程\Photon-OnPremise-Server-SDK_v4-0-29-11263\deploy\bin_Win64\log'
+2018-12-24 21:45:40,845 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: MyGameServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///F:/WysStudyType/PhotonServer教程/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/MyGameServer.DLL
+2018-12-24 21:45:40,846 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2018-12-24 21:45:40,871 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///F:/WysStudyType/PhotonServer教程/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/Photon.SocketServer.DLL
+2018-12-24 21:45:40,899 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///F:/WysStudyType/PhotonServer教程/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGamesLibs.DLL
+2018-12-24 21:45:40,955 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///F:/WysStudyType/PhotonServer教程/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/Common.DLL
+2018-12-24 21:45:40,960 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'MyGame1', assemblyName = 'MyGameServer', typeName = 'MyGameServer.MyGameServer'
+2018-12-24 21:45:40,974 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'MyGame1', DomainId='2' -- calling Application.Setup
+2018-12-24 21:45:41,007 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///F:/WysStudyType/PhotonServer教程/Photon-OnPremise-Server-SDK_v4-0-29-11263/deploy/MyGameServer/bin/ExitGames.Logging.Log4Net.DLL
+2018-12-24 21:45:41,172 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2018-12-24 21:45:46,483 [10] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyResolveEvent: ApplicationName = 'MyGame1', DomainId='2', args.Name='mscorlib.XmlSerializers, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+2018-12-24 22:00:39,568 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2018-12-24 22:00:39,877 [10] ERROR PhotonHostRuntime.PhotonDomainManager - UnhandledException: 
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   在 System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   在 MyGameServer.Threads.SyncPositionThread.UpdatePosition() 位置 F:\WysStudyType\PhotonServer教程\PhotonServer教程\MyGameServer\Threads\SyncPositionThread.cs:行号 35
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
