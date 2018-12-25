@@ -2,22 +2,34 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(CapsuleCollider))]
+[RequireComponent(typeof(Animator))]
 public class LocalPlayerCharacter : MonoBehaviour
 {
-    [SerializeField] float m_MovingTurnSpeed = 360;
-    [SerializeField] float m_StationaryTurnSpeed = 180;
+    [SerializeField] float m_MovingTurnSpeed = 0;
+    [SerializeField] float m_StationaryTurnSpeed = 0;
     [SerializeField] float m_GroundCheckDistance = 0.1f;
 
     Animator m_Animator;
     Vector3 m_GroundNormal;//地面法向量
+    Rigidbody m_Rigidbody;//刚体
     bool m_IsGrounded;
     float m_TurnAmount;
     float m_ForwardAmount;
+    float m_OrigGroundCheckDistance;//地面距离检测的起始值
+    public float moveSpeed = 10;
+    CapsuleCollider m_Capsule;//胶囊体
+
 
     private void Start()
     {
         m_Animator = GetComponent<Animator>();
+        m_Capsule = GetComponent<CapsuleCollider>();
 
+        //锁定刚体的 XYZ轴的旋转
+        m_Rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationY | RigidbodyConstraints.FreezeRotationZ;
+        m_OrigGroundCheckDistance = m_GroundCheckDistance;//保存一下地面检查值
     }
 
     public void MoveMent(Vector3 move, bool crouch, bool jump, bool isFire)
@@ -31,7 +43,6 @@ public class LocalPlayerCharacter : MonoBehaviour
         {
             Move(move);
         }
-
 
 
     }
@@ -117,7 +128,11 @@ public class LocalPlayerCharacter : MonoBehaviour
         Debug.Log(m_ForwardAmount + "    " + m_TurnAmount);
         m_Animator.SetFloat("MoveY", m_ForwardAmount);
         m_Animator.SetFloat("MoveX", m_TurnAmount);
+    }
 
+    public void TransFormMove(Vector3 move)
+    {
+        transform.Translate(new Vector3(move.x, 0, move.y) * moveSpeed * Time.deltaTime);
     }
 }
 

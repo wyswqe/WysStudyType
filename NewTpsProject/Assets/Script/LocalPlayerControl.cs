@@ -50,8 +50,6 @@ public class LocalPlayerControl : MonoBehaviour
         }
         m_Charachter.MoveMent(m_Move, m_crouch, m_Jump, isFire);
         m_Jump = false;
-
-        Move(v2);
     }
 
     public void MoveEnd()
@@ -68,13 +66,4 @@ public class LocalPlayerControl : MonoBehaviour
     {
         isFire = false;
     }
-
-
-    public void Move(Vector2 move)
-    {
-        Debug.Log(move);
-        move = new Vector3(move.x, 0, move.y);
-        transform.Translate(move * moveSpeed * Time.deltaTime);
-    }
-
 }
