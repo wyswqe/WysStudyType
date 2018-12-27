@@ -27,6 +27,7 @@ GameObject:
   - component: {fileID: 444602}
   - component: {fileID: 3395220}
   - component: {fileID: 2305320}
+  - component: {fileID: 64927139945854848}
   m_Layer: 0
   m_Name: SA_Bld_Motel_Carpark_01
   m_TagString: Untagged
@@ -156,3 +157,17 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 147008}
   m_IsPrefabParent: 1
+--- !u!64 &64927139945854848
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147008}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: b1774bd68b7e19545aa0aa03f5d6a8ec, type: 3}
