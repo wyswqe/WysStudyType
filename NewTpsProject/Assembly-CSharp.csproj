@@ -232,6 +232,8 @@
     <Compile Include="Assets\Plug-in unit\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\Plug-in unit\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\Plug-in unit\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\Script\Control\GameControl.cs" />
+    <Compile Include="Assets\Script\Control\GameLogic.cs" />
     <Compile Include="Assets\Script\Control\LocalPlayerCharacter.cs" />
     <Compile Include="Assets\Script\Control\LocalPlayerControl.cs" />
     <Compile Include="Assets\Script\Control\UserTouchControl.cs" />
@@ -239,6 +241,12 @@
     <Compile Include="Assets\Script\Data\WeaponsDataMgr.cs" />
     <Compile Include="Assets\Script\Manager\EnumManager.cs" />
     <Compile Include="Assets\Script\Manager\WeaponsManager.cs" />
+    <Compile Include="Assets\Script\Utility\Base\DebugHelper.cs" />
+    <Compile Include="Assets\Script\Utility\Base\TSingleton.cs" />
+    <Compile Include="Assets\Script\Utility\ReadCSV\CSVAnalysis.cs" />
+    <Compile Include="Assets\Script\Utility\ReadCSV\ItemCsvBaseData.cs" />
+    <Compile Include="Assets\Script\Utility\ReadCSV\ItemCsvDataBaseMgr.cs" />
+    <Compile Include="Assets\Script\Utility\ReadCSV\ReadCSVAssetMgr.cs" />
     <None Include="Assets\Plug-in unit\PostProcessing\Shaders\Builtins\FinalPass.shader" />
     <None Include="Assets\Plug-in unit\PostProcessing\Shaders\Debug\Waveform.compute" />
     <None Include="Assets\Plug-in unit\PostProcessing\Shaders\Builtins\Uber.shader" />
