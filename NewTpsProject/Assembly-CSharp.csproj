@@ -232,21 +232,28 @@
     <Compile Include="Assets\Plug-in unit\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\Plug-in unit\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\Plug-in unit\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\Script\Control\BulletControl.cs" />
     <Compile Include="Assets\Script\Control\GameControl.cs" />
     <Compile Include="Assets\Script\Control\GameLogic.cs" />
     <Compile Include="Assets\Script\Control\LocalPlayerCharacter.cs" />
     <Compile Include="Assets\Script\Control\LocalPlayerControl.cs" />
     <Compile Include="Assets\Script\Control\UserTouchControl.cs" />
+    <Compile Include="Assets\Script\Manager\BulletMgr.cs" />
+    <Compile Include="Assets\Script\Manager\RoleMgr.cs" />
+    <Compile Include="Assets\Script\Manager\WeaponsMgr.cs" />
     <Compile Include="Assets\Script\Data\WeaponsData.cs" />
     <Compile Include="Assets\Script\Data\WeaponsDataMgr.cs" />
-    <Compile Include="Assets\Script\Manager\EnumManager.cs" />
-    <Compile Include="Assets\Script\Manager\WeaponsManager.cs" />
+    <Compile Include="Assets\Script\Manager\RoleTypeMgr.cs" />
+    <Compile Include="Assets\Script\Utility\EventMgr\EnumManager.cs" />
+    <Compile Include="Assets\Script\Utility\EventMgr\EventHelpr.cs" />
+    <Compile Include="Assets\Script\Utility\EventMgr\EventManager.cs" />
     <Compile Include="Assets\Script\Utility\Base\DebugHelper.cs" />
     <Compile Include="Assets\Script\Utility\Base\TSingleton.cs" />
     <Compile Include="Assets\Script\Utility\ReadCSV\CSVAnalysis.cs" />
     <Compile Include="Assets\Script\Utility\ReadCSV\ItemCsvBaseData.cs" />
     <Compile Include="Assets\Script\Utility\ReadCSV\ItemCsvDataBaseMgr.cs" />
     <Compile Include="Assets\Script\Utility\ReadCSV\ReadCSVAssetMgr.cs" />
+    <Compile Include="Assets\Script\View\Bullet.cs" />
     <None Include="Assets\Plug-in unit\PostProcessing\Shaders\Builtins\FinalPass.shader" />
     <None Include="Assets\Plug-in unit\PostProcessing\Shaders\Debug\Waveform.compute" />
     <None Include="Assets\Plug-in unit\PostProcessing\Shaders\Builtins\Uber.shader" />
@@ -569,6 +576,11 @@
       <Project>{04A63F62-0A72-794A-F3C3-6B8542F5BB65}</Project>
       <Name>Unity.Postprocessing.Runtime</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Script\NewFolder1\" />
+    <Folder Include="Assets\Script\Utility\NetWork\Receive\" />
+    <Folder Include="Assets\Script\Utility\NetWork\Request\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

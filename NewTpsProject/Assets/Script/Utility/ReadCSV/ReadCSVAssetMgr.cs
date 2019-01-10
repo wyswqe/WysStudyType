@@ -22,7 +22,7 @@ namespace Assets.Script.Utility
             switch (name)
             {
                 case CsvNameType.WeaponsData:
-                    return null;
+                    return new WeaponsData();
                 case CsvNameType.Max:
                     return null;
                 default:
